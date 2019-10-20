@@ -2,7 +2,7 @@
 #include"LibraryFunction.h"
 //strlen函数的模拟实现
 //第一种：计数方式
-int my_strlen(const char * str)
+size_t my_strlen(const char * str)
 {
 	assert(str);
 	int count = 0;
@@ -15,7 +15,7 @@ int my_strlen(const char * str)
 }
 #if 0
 //第二种：递归
-int my_strlen(const char * str)
+size_t my_strlen(const char * str)
 {
 	assert(str);
 	if (*str == '\0')
@@ -24,12 +24,12 @@ int my_strlen(const char * str)
 	}
 	else
 	{
-		return 1 + strlen(str + 1);
+		return 1 + my_strlen(str + 1);
 	}
 
 }
 //第三种：指针相减
-int my_strlen(const char * str)
+size_t my_strlen(const char * str)
 {
 	assert(str);
 	const char*end = str;

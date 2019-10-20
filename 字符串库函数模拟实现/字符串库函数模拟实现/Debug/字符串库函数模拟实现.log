@@ -1,2 +1,9 @@
-﻿  test.c
+﻿  LibraryFunction.c
+e:\github\myrepository\c-cplusplus\字符串库函数模拟实现\字符串库函数模拟实现\libraryfunction.c(137): warning C4090: “=”: 不同的“const”限定符
+e:\github\myrepository\c-cplusplus\字符串库函数模拟实现\字符串库函数模拟实现\libraryfunction.c(150): warning C4090: “=”: 不同的“const”限定符
+  test.c
+  正在生成代码...
+e:\github\myrepository\c-cplusplus\字符串库函数模拟实现\字符串库函数模拟实现\libraryfunction.c(121): warning C4715: “my_strcmp”: 不是所有的控件路径都返回值
+e:\github\myrepository\c-cplusplus\字符串库函数模拟实现\字符串库函数模拟实现\libraryfunction.c(153): warning C4715: “my_strstr”: 不是所有的控件路径都返回值
+e:\github\myrepository\c-cplusplus\字符串库函数模拟实现\字符串库函数模拟实现\libraryfunction.c(192): warning C4716: “my_memmove”: 必须返回一个值
   字符串库函数模拟实现.vcxproj -> E:\GitHub\MyRepository\C-CPlusPlus\字符串库函数模拟实现\Debug\字符串库函数模拟实现.exe

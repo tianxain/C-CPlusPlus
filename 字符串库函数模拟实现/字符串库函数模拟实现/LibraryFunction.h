@@ -4,7 +4,7 @@
 #include<string.h>
 
 //strlen函数的模拟实现;
-int my_strlen(const char * str);
+size_t my_strlen(const char * str);
 
 //strcpy函数的模拟实现
 char * my_strcpy(char * dst, const char * src);
