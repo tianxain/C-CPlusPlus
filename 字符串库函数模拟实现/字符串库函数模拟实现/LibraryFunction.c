@@ -89,7 +89,7 @@ char * my_strcat(char * dst, const char * src)
 int my_strcmp(const char * str1, const char * str2)
 {
 	assert(str1&&str2);
-	while (*str1&&str2)
+	while (*str1&&*str2)
 	{
 		if (*str1 > *str2)
 		{
